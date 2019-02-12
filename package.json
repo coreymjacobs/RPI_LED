@@ -1,0 +1,20 @@
+{
+  "name": "rpi_led",
+  "version": "1.0.0",
+  "description": "led lights in pi",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "CoreyJ",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "onoff": "^3.2.2",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
